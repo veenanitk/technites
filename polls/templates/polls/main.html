@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+
+            <form class="form-horizontal" action="/polls/main_page/" method="POST">
+          
+                {% csrf_token %}
+  image:<br>
+  <input type="image" name="firstname" value="Mickey">
+  <br>
+  
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
